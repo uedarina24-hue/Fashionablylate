@@ -1,0 +1,204 @@
+.admin__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.admin__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #be9846f5;
+}
+
+.admin__form {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.search-form,
+.admin__export-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 90%;
+    text-align: center;
+}
+
+.search-form__item {
+    display: flex;
+    width: 80%;
+}
+
+.search-form__item :hover{
+background-color: bisque;
+}
+
+
+.search-form__item-name {
+    margin-right: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 3px;
+    color: #be9846f5;
+    font-size: 15px;
+    
+}
+
+.search-form__item-gender {
+    margin-right: 10px;
+    padding: 10px;
+    width: 10%;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 3px;
+    color: #be9846f5;
+    font-size: 15px;
+}
+
+.search-form__item-gender::after{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #b19967f5;
+    border-bottom: 0;
+
+}
+
+.search-form__item-category {
+    margin-right: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 3px;
+    color: #be9846f5;
+    font-size: 15px;
+}
+
+.search-form__item-date {
+    padding: 10px;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 3px;
+    appearance: none;
+    color: #be9846f5;
+}
+
+.search-form__button {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.search-form__button-submit {
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #bfa56df5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form__button-reset {
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #e3c482f5;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.export-form__button{
+    width: 80%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.export-form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 3px;
+    color: #bfa56df5;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+
+.admin-table {
+    margin: 30px auto;
+    width: 90%;
+    text-align: center;
+}
+
+
+.admin-table__inner {
+    width: 100%;
+}
+
+.admin-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-table__header {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+    background-color: #bfa56df5;
+    color: #fff;
+}
+
+.update-form__item-email{
+    word-break: keep-all;
+}
+
+.admin-table__item {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    color: #bfa56df5;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.detail-form__button {
+    width: 100%;
+}
+
+.detail-form__button-submit {
+    padding: 5px;
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    background: #ddd;
+    color: #bfa56df5;
+    cursor: pointer;
+}
