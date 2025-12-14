@@ -15,10 +15,10 @@ class ContactFactory extends Factory
     public function definition()
     {
         return [
-            'category_id'=>$this->faker->randomElement(['1', '2', '3','4','5']),
+            'category_id'=>$this->faker->randomElement([1, 2, 3, 4, 5]),
             'last_name' => $this->faker->lastName,
             'first_name' => $this->faker->firstName,
-            'gender' =>$this->faker->randomElement(['1', '2', '3']),
+            'gender' =>$this->faker->randomElement([1, 2, 3]),
             'email' =>$this->faker->email,
             'tel' =>$this->faker->numerify('###########'),
             'address' =>$this->faker->address,

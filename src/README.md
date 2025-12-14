@@ -1,7 +1,7 @@
 # 環境構築
 
 ## Dockerビルド
-* git clone URL
+* git clone https://github.com/uedarina24-hue/Fashionablylate
 * docker-compose up -d --build
 
 ## Laravel環境構築
